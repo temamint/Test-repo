@@ -1,0 +1,17 @@
+{
+    "curly": ["error", "all"],
+
+    "lines-around-comment": [ "error", {
+            "beforeBlockComment": false,
+            "afterBlockComment": true,
+            "beforeLineComment": false,
+            "afterLineComment": true,
+            "allowBlockStart": true,
+            "allowBlockEnd": true,
+            "allowObjectStart": true,
+            "allowObjectEnd": true,
+            "allowArrayStart": true,
+            "allowArrayEnd": true
+        }
+    ]
+}
